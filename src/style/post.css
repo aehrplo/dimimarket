@@ -1,0 +1,66 @@
+@import url('../fonts/IBMPlexSansKR.css');
+@import url('../fonts/metropolis.css');
+
+section .mdThumb {
+    width: 350px;
+    height: 260px;
+    border-radius: 8px 8px 16px 16px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 10px #00000016;
+}
+section span, div {
+    font-family: 'IBMPlexSansKR';
+}
+.mdThumbInfo {
+    margin-top: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mdThumbInfo, .mdUploadTime {
+    margin-left: 6px;
+}
+.mdThumbInfo .mdUsername {
+    font-weight: 600;
+}
+.mdDescription {
+    margin-top: 20px;
+    margin-left: 12px;
+}
+.tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: bold;
+}
+section .mdTarget {
+    margin-right: 11px;
+}
+.tags > .mdHeart, .mdChat , .mdPrice{
+    margin: 3px;
+}
+.tags > span > span {
+    align-items: center;
+}
+section .mdChat, .mdHeart, .ChatICO {
+    margin-left: 10px;
+}
+.leftTags, .leftThumbInfo {
+    margin-left: 12px;
+}
+section .mdPrice {
+    font-size: 18px;
+    font-weight: 800;
+    color: #F23176;
+    margin-right: 11px;
+}
+section {
+    width: 350px;
+    height: 400px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 10px #00000016;
+}

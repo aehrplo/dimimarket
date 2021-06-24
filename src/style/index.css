@@ -1,0 +1,71 @@
+@import url('../fonts/IBMPlexSansKR.css');
+@import url('../fonts/metropolis.css');
+
+.loginbox {
+    display:"flex";
+}
+.loginbox img {
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+.login {
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 1vh;
+    width: 210px;
+    height: 15px;
+    box-shadow: 0 10px 15px #00000010;
+}
+.login::placeholder {
+    color: #DEDEDE;
+    font-size: 18px;
+    font-family: 'IBMPlexSansKR';
+    font-weight: 400;
+}
+.loginbox .login {
+    padding: 16px 20px;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    color: #444444;
+    font-family: 'IBMPlexSansKR';
+    font-weight: 200;
+    border-color: #D4D4D4;
+    transition: all .3s ease;
+}
+.loginbox .login:focus {
+    outline: none;
+    border-color: #FB6069;
+}
+.submit {
+    border: 0px solid;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #F12A78 0%, #FB6069 100%);
+    color: white;
+
+    margin-top: 40px;
+    width: 200px;
+    height: 45px;
+
+    cursor: pointer;
+    font-family: 'Metropolis';
+    font-weight: 700;
+    font-size:23px;
+    box-shadow: 0 10px 15px #00000010;
+}
+.loginbox img input {
+    flex-direction: column;
+}
+.termsOfService {
+    margin-top: 20px;
+    font-size: 9pt;
+    font-family: 'IBMPlexSansKR';
+    font-weight: 200;
+}
+.termsOfService > a {
+    text-decoration: none;
+    color: #000000;
+    transition: all .3s ease;
+}
+.termsOfService > a:hover {
+    color: #FB6069;
+}

@@ -1,0 +1,95 @@
+@import url('../fonts/IBMPlexSansKR.css');
+@import url('../fonts/metropolis.css');
+
+body{
+    margin: 0;
+}
+header {
+    border-bottom: 3px solid #FB6069;
+}
+.header-container {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container a {
+    text-decoration: none;
+    font-size:0;
+}
+.header-container > input {
+    width: 400px;
+    height: 35px;
+    border: 1.5px solid;
+    padding-left: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #444444;
+    font-family: 'IBMPlexSansKR';
+    border-color: #D4D4D4;
+    transition: all .15s ease;
+}
+.header-container > input::placeholder {
+    color: #dedede;
+    font-size: 18px;
+    font-family: 'IBMPlexSansKR';
+    font-weight: 400;
+}
+.header-container > input:focus {
+    outline: none;
+    border-color: #646464;
+}
+.footer-top {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 1024;
+    font-family: 'IBMPlexSansKR';
+    color: #dedede;
+    font-size: 12px;
+}
+footer {
+    background-color: #485058;
+}
+.footer-container {
+    width: 1024px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+footer ul {
+    color: #adb5bd;
+    font-family: 'IBMPlexSansKR';
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+footer a {
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: none;
+    color: #adb5bd;
+}
+#paragraph {
+    margin: 20px auto;
+    width: 760px;
+}
+#paragraph > div {
+    display: flex;
+    justify-content: space-evenly;
+}
